@@ -1,0 +1,337 @@
+nav, details, footer, aside, figure
+{
+	display: block;
+}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.image
+{
+	width: 108px;
+	float: left;
+	height: 105px;
+	border-radius:9px 9px 9px 9px;
+	margin: 9px 25px 10px 5px;
+}
+html
+{
+	width: 100%;
+}
+header
+{
+	width:100%;
+	position:relative;
+	z-index:2;
+}
+.row-top
+{
+	width: 100%;
+	min-height:125px;
+	background:url(images/row-top-tail.gif) no-repeat yellow;
+	background-color: yellow;
+	border-radius:9px 9px 9px 9px;
+	
+	margin: 4px 15px 60px 5px;
+	z-index:1;
+}
+.support
+{
+	display:block;
+	font-size:29px;
+	padding:29px 65px 0 30px;
+	letter-spacing:-2px;
+	line-height:1.2em;
+	background:url(images/pic-1.png) 0 32px no-repeat;
+	float:right;
+}
+h1 
+{
+	float:left;
+	padding:20px 0 0 25px;
+	position:relative;
+}
+	h1 a {
+		display:block;
+		width:218px;
+		height:32px;
+		text-indent:10px;
+		}
+/*********Menu********/
+.menu
+{
+	padding:0 0 0 0;
+	width:100%;
+	margin-top:-35px;
+	position:relative;
+	z-index:2;
+}
+.menu li
+{
+	float: left;
+	position: relative;
+	padding-right: 2px;
+	background:url(images/menu-spacer.gif) right top repeat-y;
+}
+	.menu li.last {background:none; padding:0}
+.menu li a
+{
+	display: block;
+	font-size:22px;
+	font-weight:400;
+	line-height: 2em;
+	padding:6px 25px 8px 40px;
+	color:#fff;
+	text-transform: capitalize;
+	letter-spacing:-1px;
+	background:#2b2b2b;
+}
+	.menu li:first-child a 
+	{
+		padding:6px 0 8px;
+		width: 45px;
+		text-indent:-9999px;
+		background:url(images/menu-home-icon.png) center center no-repeat #2b2b2b;
+		border-radius:9px 0 0 9px;
+		-moz-border-radius:9px 0 0 9px;
+		-webkit-border-radius:9px 0 0 9px;
+	}
+.menu li a.active,
+.menu > li > a:hover {background-color:#222;
+text-decoration: none;
+color: gray;
+}
+a
+{
+	text-decoration: none;
+}
+
+.slider-inner {padding-left:284px}
+.slider
+{
+	position: relative;
+	width:736px;
+	height:397px;
+	float:right;
+}
+/*.items
+{
+	display:none;
+	position: fixed;
+}
+.next,
+.prev {
+	display:block;
+	width:58px;
+	height:58px;
+	text-indent:-9999px;
+	background:url(images/slider-control.png) 0 0 no-repeat;
+	position:absolute;
+	left:0;
+	top:100px;
+	z-index:99;
+	cursor:pointer;
+}
+.next {left:auto; right:0; background-position:left bottom}*/
+
+li img
+{
+	display: block;
+	width: 50px;
+	height: 60px;
+	display: inline-grid;
+	display: ruby-base;
+}
+/*.items {display:none;}*/
+.next,
+.prev {
+	display:block;
+	width:58px;
+	height:58px;
+	text-indent:-9999px;
+	background:url(images/slider-control.png) 0 0 no-repeat;
+	position:absolute;
+	left:0;
+	top:47px;
+	z-index:50;
+	cursor:pointer;
+}
+.next {left:auto; right:0; background-position:left bottom}
+
+/*.banner1-bg {
+	width:284px;
+	height:397px;
+	background:url(images/banner1-bg.jpg) 0 0 no-repeat;
+	float:left;
+}*/
+/*********************************aside*************************************/
+aside {
+	width:100%;
+	padding:21px 0;
+}
+/*********************************content*************************************/
+#content {
+	width:100%;
+	padding:20px 0;
+	position:relative;
+	z-index:1;
+}
+.spacer-1 {
+	width:100%;
+	background:url(images/pic-1.gif) 217px 0 repeat-y;
+}
+h2 
+{
+	font-size:44px;
+	line-height:1.204em;
+	color:#f6a20e;
+	text-transform:uppercase;
+	margin-bottom:8px;
+	letter-spacing:-4px;
+}
+h3 {
+	font-size:40px;
+	line-height:1.222em;
+	color:#222;
+	letter-spacing:-2px;
+	margin-bottom:22px;
+	color: red;
+	font-style: underline;
+}
+h4 {
+	text-align: center;
+	font-size:28px;
+	line-height:58px;
+	color:#222;
+	letter-spacing:-1px;
+}
+h6 
+{
+	color:green;
+	font-size: 15px;
+
+}
+.border-bot {
+	width:100%;
+	padding-bottom:20px;
+	background:url(images/pic-1.gif) 0 bottom repeat-x;
+}
+.aligncenter {text-align:center}
+.box {
+	width:50%;
+	color:#ccc;
+	background:url(images/box-title-tail.gif) left top repeat-x #f6a20e;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+	.box .padding {padding:25px 10px 0 30px}
+	.box-bg {
+		width:100%;
+		padding-bottom:24px;
+		background:url(images/box-tail.gif) left top repeat-x #222;
+		border-radius:10px;
+		-moz-border-radius:10px;
+		-webkit-border-radius:10px;
+	}
+.button {
+	display:inline-block;
+	padding:6px 30px;
+	font-size:21px;
+	line-height:1.238em;
+	letter-spacing:-1px;
+	color:#2b2b2b;
+	border:2px solid #fff;
+	background:url(images/button-tail.gif) 0 0 repeat-x #dbdbdb;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	cursor:pointer;
+}
+.button:hover {background:#dbdbdb}
+.button-2 {
+	display:inline-block;
+	padding:7px 23px 8px;
+	font-size:21px;
+	line-height:1.238em;
+	letter-spacing:-1px;
+	color:#fff;
+	background:url(images/button2-tail.gif) 0 0 repeat-x #222;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	cursor:pointer;
+}
+.button-2:hover {background:#f6a410}
+.button a:hover {cursor:pointer}
+.column-1
+{
+	padding:0 0 0 0;
+	width:100%;
+	margin: 10px;
+	position:relative;
+	z-index:2;
+}
+.column-2
+{
+	padding:0 0 0 0;
+	width:100%;
+	margin: 10px;
+	position:relative;
+	z-index:2;
+}
+.prev-indent-bot
+{
+	font-size: 20px;
+}
+.img-indent-bot {margin-bottom:25px}
+.margin-bot {margin-bottom:35px}
+.margin-top {margin-top:-7px}
+.img-indent {float:left; margin:0 20px 0px 0}
+.img-indent2 {float:left; margin:0 13px 0px 0}
+.img-indent-r {float:right; margin:0 0px 0px 40px}
+
+.luc
+{
+	width: 108px;
+	float: left;
+	height: 105px;
+}
+
+footer {
+	width:100%;
+	height:132px;
+	color:#fff;
+	text-align:center;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+	.footer-bg {
+		width:100%;
+		padding:18px 0 25px;
+		background:#2b2b2b;
+		border-radius:9px;
+		-moz-border-radius:9px;
+		-webkit-border-radius:9px;
+	}
+.list-services {
+	padding:0;
+	width:112px;
+	margin:0 auto;
+	overflow:hidden;
+}
+	.list-services li {
+		float:left;
+		padding:0 0 0 8px;
+	}
+	.list-services li:first-child {padding:0}
+		.list-services li a {
+			display:block;
+			width:32px;
+			height:32px;
+			text-indent:-9999px;
+			background:url(images/social-icons.png) 0 0 no-repeat;
+		}
+		.list-services li.item-1 a {background-position:-40px 0}
+		.list-services li.item-2 a {background-position:-80px 0}
+
+
+.block {height:115px}
